@@ -1,0 +1,64 @@
+.news-letter {
+  width: 80%; /* Adjust width for better alignment */
+  max-width: 1200px; /* Limit the maximum width */
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 20px; /* Add padding for better spacing */
+  margin-bottom: 140px; /* Reduce bottom margin */
+  background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+  gap: 20px; /* Adjust gap for better spacing */
+}
+
+.news-letter h1 {
+  color: #454545;
+  font-size: 40px; /* Adjust font size to fit within the container */
+  font-weight: 600;
+  margin: 0; /* Remove default margin */
+  text-align: center; /* Center-align the text */
+}
+
+.news-letter p {
+  color: #454545;
+  font-size: 20px;
+  text-align: center; /* Center-align the text */
+  margin: 0; /* Remove default margin */
+}
+
+.news-letter div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  width: 730px;
+  height: 70px;
+  border-radius: 80px;
+  border: 1px solid #e3e3e3;
+  overflow: hidden; /* Ensure content doesn't overflow */
+}
+
+.news-letter input {
+  width: 500px;
+  margin-left: 30px;
+  border: none;
+  outline: none;
+  color: #616161;
+  font-family: poppins;
+  font-size: 16px;
+}
+
+.news-letter div button {
+  width: 210px;
+  height: 70px;
+  border-radius: 80px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+.news-letter div button:active {
+  background-color: rgb(46, 41, 41);
+}

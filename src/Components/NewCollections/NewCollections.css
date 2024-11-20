@@ -1,0 +1,35 @@
+.new-collections {
+  width: 100%; /* Use full width for better alignment */
+  max-width: 1200px; /* Limit the maximum width for the section */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  margin: auto;
+  padding: 20px 20px; /* Adjust padding as needed */
+  margin-bottom: 80px;
+}
+
+.new-collections h1 {
+  color: #171717;
+  font-size: 50px; /* Adjust font size for better balance */
+  font-weight: 600;
+  margin: 0; /* Remove default margin */
+}
+
+.new-collections hr {
+  width: 200px;
+  height: 6px;
+  border-radius: 10px;
+  background-color: #252525;
+  margin: 20px 0; /* Add margin for spacing */
+}
+
+.collections {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap */
+  justify-content: center; /* Center items horizontally */
+  gap: 30px;
+  max-width: 1200px; /* Limit the maximum width */
+  width: 100%; /* Ensure it takes the full width */
+  margin-top: 50px; /* Add top margin for spacing */
+}

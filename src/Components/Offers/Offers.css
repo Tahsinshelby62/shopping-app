@@ -1,0 +1,62 @@
+.offers {
+  width: 80%; /* Use full width for better alignment */
+  max-width: 1200px; /* Limit the maximum width for the section */
+  height: 60vh;
+  display: flex;
+  align-items: center; /* Center content vertically */
+  justify-content: space-between; /* Space out the left and right sections */
+  margin: auto;
+  padding: 20px 80px; /* Adjust padding as needed */
+  margin-bottom: 80px;
+  background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+}
+
+.offers-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the left */
+}
+
+.offers-left h1 {
+  color: #171717;
+  font-size: 50px; /* Adjust font size for better balance */
+  font-weight: 600;
+  margin: 0; /* Remove default margin */
+}
+
+.offers-left p {
+  color: #171717;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 20px 0; /* Add margin for spacing */
+}
+
+.offers-left button {
+  width: 200px; /* Adjust button width */
+  height: 50px; /* Adjust button height */
+  border-radius: 25px;
+  background: #ff4141;
+  border: none;
+  color: white;
+  font-size: 18px; /* Adjust font size */
+  font-weight: 500;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.offers-right {
+  flex: 1;
+  display: flex;
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  padding: 20px; /* Add padding for spacing */
+  overflow: hidden; /* Hide overflowing image */
+}
+
+.offers-right img {
+  max-width: 200px; /* Ensure the image does not stretch beyond container */
+  max-height: 50%; /* Ensure the image does not stretch beyond container height */
+  object-fit: contain; /* Ensure image fits within the container */
+}
